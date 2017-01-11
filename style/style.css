@@ -34,12 +34,12 @@ div.row {
 
 .table #bid-spread #spread-vs {
     border-bottom: black solid 1px !important;
+    color: #000000;
 }
 
 .table td {
     vertical-align: center !important;
 }
-
 
 .table {
     border-bottom: solid 1px black !important;
