@@ -1,0 +1,65 @@
+*, body {
+    font-size: 0.98em;
+}
+
+div.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+#market-header, #market-navbar, #market-sup-header {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#select-issuer-search {
+    padding-right: 5px;
+}
+
+.table th {
+    border-bottom: black solid 1px !important;
+    color: #337ab7;
+    font-weight: bold;
+    padding: 6px !important;
+    vertical-align: center !important;
+}
+
+.table #bid-spread th {
+    border-bottom: transparent solid 1px !important;
+}
+
+.table #bid-spread #spread-vs {
+    border-bottom: black solid 1px !important;
+}
+
+.table td {
+    vertical-align: center !important;
+}
+
+
+.table {
+    border-bottom: solid 1px black !important;
+
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    [class*="col-xs-"] {
+        width: 100% !important;
+        text-align: center !important;
+        margin-bottom: 10px;
+
+    }
+    .nav-tabs li {
+        width: 100%;
+        text-align: center !important;
+    }
+
+}
