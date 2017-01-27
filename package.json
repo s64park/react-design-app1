@@ -7,9 +7,13 @@
   "scripts": {
     "clean": "rm bundle.js",
     "build": "webpack",
+    "start": "node server/server.js",
     "development": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
+  },
+  "engines": {
+    "node": "6.9.2"
   },
   "author": "",
   "license": "ISC",
