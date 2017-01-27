@@ -1,7 +1,9 @@
 # React Front-End Design practice
 
 ## Technologies used
-React.js, react-bootstrap, babel, webpack
+React.js, react-bootstrap, babel, webpack, fontawesome
+
+[Live Demo]()
 
 ##Quick Test 
 ####Clone this repo or download the .zip file, install dependencies, then npm run dev for server and npm start for client:
